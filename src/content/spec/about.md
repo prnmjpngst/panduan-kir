@@ -1,22 +1,22 @@
-# About Panduan KIR
+# Tentang Panduan KIR
 
-Panduan KIR is a technical handbook for the periodic motor vehicle testing (KIR) system in Indonesia. This project serves as an operational knowledge archive for field practitioners, aiming to provide practical, reliable guidance rather than generic information.
+Panduan KIR adalah buku pegangan teknis untuk sistem uji berkala kendaraan bermotor (KIR) di Indonesia. Proyek ini berfungsi sebagai arsip pengetahuan operasional bagi praktisi lapangan, dengan tujuan memberikan panduan praktis dan tepercaya, bukan sekadar informasi generik.
 
-## About the Author
-I am **Purnomo Aji Pangestu**, currently serving as a **Vehicle Testing Examiner (Penguji Kendaraan Bermotor)** at the Department of Transportation (Dinas Perhubungan) of Lumajang Regency, East Java.
+## Tentang Penulis
+Saya adalah **Purnomo Aji Pangestu**, saat ini bertugas sebagai **Penguji Kendaraan Bermotor** di Dinas Perhubungan Kabupaten Lumajang, Jawa Timur.
 
-With a background in official technical operations for periodic vehicle testing, I created this handbook to document field procedures, share operational insights, and provide practical troubleshooting advice based on my professional experience in ensuring vehicle safety and compliance.
+Dengan latar belakang dalam operasional teknis resmi untuk uji berkala kendaraan, saya membuat buku pegangan ini untuk mendokumentasikan prosedur lapangan, berbagi wawasan operasional, dan memberikan saran pemecahan masalah praktis berdasarkan pengalaman profesional saya dalam memastikan keselamatan dan kepatuhan kendaraan.
 
-## Project Goal
-To build a practical reference for:
-- Procedures and workflows of periodic vehicle testing.
-- Field implementation of regulations.
-- Operational knowledge for testing centers (PKB/Dishub).
-- Troubleshooting common test failures.
+## Tujuan Proyek
+Membangun referensi praktis untuk:
+- Prosedur dan alur uji berkala kendaraan bermotor.
+- Implementasi regulasi di lapangan.
+- Pengetahuan operasional bagi unit pelaksana (PKB/Dishub).
+- Pemecahan masalah (*troubleshooting*) kegagalan uji yang umum.
 
-## Philosophy
-This handbook prioritizes **field utility** over theoretical law. It is designed for vehicle owners, fleet administrators, workshop personnel, and field staff, emphasizing real-world operational implications and technical clarity.
+## Filosofi
+Buku pegangan ini memprioritaskan **kegunaan lapangan** di atas hukum teoretis. Dirancang untuk pemilik kendaraan, administrator armada, personel bengkel, dan staf lapangan, dengan menekankan implikasi operasional dunia nyata dan kejelasan teknis.
 
-## Contact
+## Kontak
 - 💻 **GitHub**: [prnmjpngst/panduan-kir](https://github.com/prnmjpngst/panduan-kir)
 - ✉️ **Email**: [prnmjpngst@gmail.com](mailto:prnmjpngst@gmail.com)

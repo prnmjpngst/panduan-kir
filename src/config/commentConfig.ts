@@ -62,7 +62,8 @@ export const commentConfig: CommentConfig = {
 		// 获取 Giscus 评论系统分类ID
 		categoryId: "DIC_kwDOKy9HOc4CegmW",
 		// 获取 Giscus 评论系统映射方式
-		mapping: "title",
+		mapping: "specific",
+		term: "guestbook", // Use a specific term for the guestbook page
 		// 获取 Giscus 评论系统严格模式
 		strict: "0",
 		// 获取 Giscus 评论系统反应功能

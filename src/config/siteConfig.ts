@@ -25,9 +25,10 @@ export const siteConfig: SiteConfig = {
 		"Uji Berkala",
 		"Dishub",
 		"Panduan Teknis",
-		"Otomotif",
+		"Regulasi",
+		"Istilah",
+		"Prosedur",
 	],
-
 	// 主题色
 	themeColor: {
 		// 主题色的默认色相，范围从 0 到 360。
@@ -73,8 +74,8 @@ export const siteConfig: SiteConfig = {
 		// 4. 网络图片: { type: "url", value: "https://example.com/logo.png", alt: "Logo" }
 		logo: {
 			type: "image",
-			value: "assets/images/avatar.avif",
-			alt: "🍀",
+			value: "assets/images/panduan-kir-logo.svg", // Placeholder for a project-specific logo
+			alt: "Panduan KIR",
 		},
 		// 导航栏标题
 		title: "prnmjpngst",

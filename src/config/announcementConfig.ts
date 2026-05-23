@@ -2,10 +2,10 @@ import type { AnnouncementConfig } from "../types/config";
 
 export const announcementConfig: AnnouncementConfig = {
 	// 公告标题
-	title: "Announcement",
+	title: "Pengumuman",
 
 	// 公告内容
-	content: "Welcome to my technical handbook!",
+	content: "Selamat datang di buku pegangan teknis saya!",
 
 	// 是否允许用户关闭公告
 	closable: true,
@@ -14,7 +14,7 @@ export const announcementConfig: AnnouncementConfig = {
 		// 启用链接
 		enable: true,
 		// 链接文本
-		text: "Learn more",
+		text: "Pelajari lebih lanjut",
 		// 链接 URL
 		url: "/about/",
 		// 内部链接

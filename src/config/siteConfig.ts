@@ -2,8 +2,8 @@ import type { SiteConfig } from "@/types/config";
 import { fontConfig } from "./fontConfig";
 
 // 定义站点语言
-// 语言代码，例如：'zh_CN', 'zh_TW', 'en', 'ja', 'ru'。
-const SITE_LANG = "en";
+// 语言代码，例如：'zh_CN', 'zh_TW', 'en', 'ja', 'ru', 'id'。
+const SITE_LANG = "id";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题

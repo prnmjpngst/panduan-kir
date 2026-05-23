@@ -52,8 +52,7 @@ const isHomePageCheck = isHomePage(Astro.url.pathname);
 const showThemeColor = !siteConfig.themeColor.fixed;
 const isWallpaperSwitchable = backgroundWallpaper.switchable ?? true;
 const allowLayoutSwitch = siteConfig.postListLayout.allowSwitch;
-const hasDisplaySettings =
-	showThemeColor || isWallpaperSwitchable || allowLayoutSwitch;
+const hasDisplaySettings = false;
 
 let links: NavBarLink[] = navBarConfig.links.map(
 	(item: NavBarLink | LinkPreset): NavBarLink => {

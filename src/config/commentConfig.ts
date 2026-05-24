@@ -53,28 +53,27 @@ export const commentConfig: CommentConfig = {
 
 	//giscus评论系统配置
 	giscus: {
-		// 设置 Giscus 评论系统仓库
-		repo: "CuteLeaf/Firefly",
-		// 设置 Giscus 评论系统仓库ID
-		repoId: "R_kgD2gfdFGd",
-		// 设置 Giscus 评论系统分类
-		category: "General",
-		// 获取 Giscus 评论系统分类ID
-		categoryId: "DIC_kwDOKy9HOc4CegmW",
-		// 获取 Giscus 评论系统映射方式
-		mapping: "specific",
-		term: "guestbook", // Use a specific term for the guestbook page
-		// 获取 Giscus 评论系统严格模式
+		// Configure Giscus repository
+		repo: "prnmjpngst/panduan-kir",
+		// Get Giscus repository ID from https://giscus.app/
+		repoId: "R_kgDOMfL7Bw",
+		// Get Giscus category from https://giscus.app/
+		category: "Announcements",
+		// Get Giscus category ID from https://giscus.app/
+		categoryId: "DIC_kwDOMfL7B84Cgi7D",
+		// Choose a mapping method for comments
+		mapping: "pathname",
+		// Set to "1" to enable strict mode, "0" to disable
 		strict: "0",
-		// 获取 Giscus 评论系统反应功能
+		// Enable or disable reactions
 		reactionsEnabled: "1",
-		// 获取 Giscus 评论系统元数据功能
+		// Emit metadata to Giscus
 		emitMetadata: "1",
-		// 获取 Giscus 评论系统输入位置
+		// Set input position: "top" or "bottom"
 		inputPosition: "top",
-		// 获取 Giscus 评论系统语言
-		lang: "zh-CN",
-		// 获取 Giscus 评论系统加载方式
+		// Set language for Giscus (e.g., "en", "id")
+		lang: "id",
+		// Set loading strategy: "lazy" or "eager"
 		loading: "lazy",
 	},
 

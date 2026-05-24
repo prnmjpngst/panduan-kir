@@ -68,8 +68,8 @@ export const siteConfig: SiteConfig = {
 	navbar: {
 		// 导航栏Logo
 		logo: {
-			type: "image",
-			value: "assets/images/panduan-kir-logo.svg", // Placeholder for a project-specific logo
+			type: "icon",
+			value: "material-symbols:directions-car",
 			alt: "Panduan KIR",
 		},
 		// 导航栏标题

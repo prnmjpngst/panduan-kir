@@ -15,7 +15,7 @@ Repository ini berisi kode sumber untuk website `prnmjpngst.pw`, sebuah handbook
 Website ini dibangun untuk menyediakan referensi praktis yang berfokus pada **realitas implementasi di lapangan**, bukan sekadar salinan teks hukum baku. Target pembaca utama meliputi pemilik kendaraan angkutan, operator armada (*fleet administrator*), personel bengkel/karoseri, serta staf lapangan Dishub/UPTD PKB.
 
 ### Prinsip Konten:
-- **Tenang, Teknis, Praktis:** Menggunakan tone catatan insinyur publik atau dokumentasi lapangan berbasis pengalaman nyata.
+- **Tenang, Teknis, Praktis:** Menggunakan tone catatan atau dokumentasi lapangan berbasis pengalaman nyata.
 - **Anti-Filler SEO:** Setiap kalimat harus memiliki nilai informasi riil. Hindari judul clickbait dan bahasa marketing korporat.
 - **Solutif:** Menjelaskan mengapa kendaraan gagal uji dan bagaimana tindakan konkret untuk mengatasinya.
 

@@ -10,12 +10,8 @@ import expressiveCode from "astro-expressive-code";
 import icon from "astro-icon";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeComponents from "rehype-components"; /* Render the custom directive content */
-import rehypeKatex from "rehype-katex";
-import katex from "katex";
-import "katex/dist/contrib/mhchem.mjs"; // 加载 mhchem 扩展
 import rehypeSlug from "rehype-slug";
 import remarkDirective from "remark-directive"; /* Handle directives */
-import remarkMath from "remark-math";
 import rehypeCallouts from "rehype-callouts";
 import remarkSectionize from "remark-sectionize";
 import { expressiveCodeConfig, siteConfig } from "./src/config";

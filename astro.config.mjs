@@ -162,7 +162,7 @@ export default defineConfig({
 	],
 	markdown: {
 		remarkPlugins: [
-			remarkMath,
+			
 			remarkImageGrid,
 			remarkExcerpt,
 			remarkDirective,

@@ -24,7 +24,6 @@ import { rehypeMermaid } from "./src/plugins/rehype-mermaid.mjs";
 import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
 import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 import { remarkMermaid } from "./src/plugins/remark-mermaid.js";
-import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 import mdx from "@astrojs/mdx";
 import rehypeEmailProtection from "./src/plugins/rehype-email-protection.mjs";
 import rehypeExternalLinks from "./src/plugins/rehype-external-links.mjs";
@@ -158,21 +157,12 @@ export default defineConfig({
 			},
 		}),
 		svelte(),
-		sitemap({
-			filter: (page) => {
-				// 根据页面开关配置过滤sitemap
-				const url = new URL(page);
-				const pathname = url.pathname;
-
-				return true;
-			},
-		}),
+		sitemap(),
 		mdx(),
 	],
 	markdown: {
 		remarkPlugins: [
 			remarkMath,
-			remarkReadingTime,
 			remarkImageGrid,
 			remarkExcerpt,
 			remarkDirective,
@@ -181,7 +171,6 @@ export default defineConfig({
 			remarkMermaid,
 		],
 		rehypePlugins: [
-			[rehypeKatex, { katex }],
 			[rehypeCallouts, { theme: siteConfig.rehypeCallouts.theme }],
 			rehypeSlug,
 			rehypeMermaid,

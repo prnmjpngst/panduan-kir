@@ -13,7 +13,7 @@ export type {
 	GalleryConfig,
 	LicenseConfig,
 	NavBarConfig,
-	PlantUMLConfig,
+
 	ProfileConfig,
 	SakuraConfig,
 	SidebarLayoutConfig,
